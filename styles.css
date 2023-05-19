@@ -1,0 +1,90 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background:  #1E1E1E;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  }
+  
+  p {
+    color: #FFFFFF;
+
+    /* text-align: center; */
+    height: 29px;
+    width: 378px;
+    left: 58px;
+    top: 105px;
+    border-radius: undefinedpx;
+
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  select, input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  #userList {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .flexbox{
+    display: flex;
+  }
+  section{
+    color: #FFFFFF;
+    
+  }
+
+   .user-details {
+    /* display: inline-block;
+    width: fit-content; */
+    margin-right: 10px;
+  } 
+  
+  .card {
+    width: 70%;
+    /* width: fit-content; */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    white-space: nowrap;
+  }
+  #profession{
+    color: #FFFFFF;
+    background-color:inherit ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+  }
+
+  #filterBtn{
+
+    padding: 4px 30px ;
+    border-radius: 5px;
+  }
+
+#addBtn{
+    padding: 4px 30px ;
+    border-radius: 5px;
+}
+
+  p{
+    margin-top: 70px;
+  }

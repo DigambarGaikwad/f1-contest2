@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <p>Filter ui cards via their profession.</p>
+    <div>
+      <!-- <label for="profession">Profession:</label> -->
+      <select id="profession">
+        <option value="">Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+      </select>
+      <div id="userList"></div>
+      <button id="filterBtn">Filter</button>
+    </div>
+
+    <p>Add a new user</p>
+    <div class="flexbox">
+         <div class="item">
+      <label for="name"> Enter
+        Name</label>
+      <input type="text" id="name">
+       </div>
+
+       <div class="item">
+      <label for="addProfession">Enter
+        Profession</label>
+     <input type="text" id="addProfession">
+    </div>
+     <div class="item">
+      <label for="age">Enter Age</label>
+      <input type="text" id="age">
+    </div>
+     
+  </div>
+      <button id="addBtn">Add User</button>
+    
+    <!-- <div id="userList"></div> -->
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
